@@ -1,0 +1,31 @@
+num=int(input('enter a num'))
+random=num*2+9
+i=o
+gameover==false
+while gameover==false:
+if i=9:
+print('limit over')
+print('enter p for play again or q for quit')
+k=str(input('enter q or p))
+if k=='q':
+gameover=true
+elif k=='p':
+num=int(input('enter a num'))
+random=num*2+9
+i=o
+gameover==false
+
+
+if num==random:
+print('you r win')
+i+=1
+
+elif num>random:
+print('too high')
+i+=1
+num=int(input('enter a num'))
+
+elif=num<random:
+print('too low')
+i+=1
+num=int(input('enter a num'))
