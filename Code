@@ -29,3 +29,5 @@ elif=num<random:
 print('too low')
 i+=1
 num=int(input('enter a num'))
+
+%%random means generation of any numbers randomly
